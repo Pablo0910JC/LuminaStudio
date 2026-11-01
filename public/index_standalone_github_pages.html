@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumina Estudio Creativo | Costa Rica - Diseño Web, Branding & Marketing</title>
+  <meta name="description" content="Sitio web oficial de Lumina Estudio Creativo en Costa Rica. Catálogo de 3 servicios profesionales con precios regionales en Colones (CRC) y dólares (USD), con contacto directo a WhatsApp (+506)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['"Plus Jakarta Sans"', 'sans-serif'],
+            sans: ['"DM Sans"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'DM Sans', sans-serif; }
+    h1, h2, h3, h4, .font-display { font-family: 'Plus Jakarta Sans', sans-serif; }
+  </style>
+</head>
+<body class="bg-neutral-50 text-neutral-800 antialiased selection:bg-blue-100 selection:text-blue-900">
+
+  <!-- TOP BAR -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-neutral-200">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between gap-4 sm:gap-8">
+      <a href="#inicio" class="flex items-center gap-2.5">
+        <span class="w-9 h-9 rounded-xl bg-neutral-900 text-white flex items-center justify-center font-bold text-lg shadow-sm">L</span>
+        <span class="text-xl font-bold tracking-tight text-neutral-900 font-display">Lumina Estudio</span>
+        <span class="text-xs bg-neutral-100 text-neutral-700 px-2 py-0.5 rounded font-medium border border-neutral-200 hidden sm:inline-block">Costa Rica 🇨🇷</span>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-neutral-600">
+        <a href="#inicio" class="hover:text-neutral-900 transition-colors">Inicio</a>
+        <a href="#quienes-somos" class="hover:text-neutral-900 transition-colors">Quiénes Somos</a>
+        <a href="#catalogo" class="hover:text-neutral-900 transition-colors">Catálogo de Servicios</a>
+        <a href="#contacto" class="hover:text-neutral-900 transition-colors">Contacto</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/50687123456?text=¡Hola%20Lumina%20Estudio%20Costa%20Rica!%20Quiero%20cotizar%20un%20servicio." 
+           target="_blank" rel="noopener noreferrer"
+           class="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-xs sm:text-sm font-semibold transition-all shadow-sm">
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          <span>WhatsApp (+506)</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="inicio" class="py-20 lg:py-28 px-6 bg-gradient-to-b from-white via-neutral-50/50 to-white border-b border-neutral-200">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      <div class="lg:col-span-7 space-y-6">
+        <div class="flex items-center gap-2 text-xs uppercase tracking-wider font-semibold text-neutral-500">
+          <span>San José, Costa Rica</span>
+          <span aria-hidden="true">·</span>
+          <span>WhatsApp: +506 8712 3456</span>
+        </div>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-neutral-900 tracking-tight leading-[1.12]">
+          Diseñamos tu presencia digital y la convertimos en <span class="text-blue-600">ventas reales</span>.
+        </h1>
+        <p class="text-lg text-neutral-600 max-w-2xl leading-relaxed">
+          En <strong>Lumina Estudio Creativo</strong> impulsamos a marcas y empresas en <strong>Costa Rica</strong> con páginas web modernas, identidades de marca memorables y estrategias publicitarias con precios regionales transparentes en colones (₡) y dólares ($).
+        </p>
+        <div class="flex flex-wrap items-center gap-4 pt-2">
+          <a href="#catalogo" class="px-6 py-3.5 rounded-xl bg-neutral-900 text-white font-semibold text-sm hover:bg-neutral-800 transition-colors shadow-sm">
+            Ver Catálogo con Precios
+          </a>
+          <a href="https://wa.me/50687123456?text=Hola%20Lumina%20Costa%20Rica%2C%20quiero%20una%20asesor%C3%ADa%20r%C3%A1pida%20sobre%20sus%20servicios" 
+             target="_blank" rel="noopener noreferrer"
+             class="px-6 py-3.5 rounded-xl bg-white border border-neutral-300 text-neutral-800 font-semibold text-sm hover:bg-neutral-100 transition-colors flex items-center gap-2">
+            <span>Escribir al WhatsApp (+506)</span>
+          </a>
+        </div>
+        <div class="pt-8 border-t border-neutral-200 grid grid-cols-3 gap-6 max-w-lg">
+          <div>
+            <div class="text-2xl font-bold text-neutral-900 font-display">120+</div>
+            <div class="text-xs text-neutral-500 mt-1">Proyectos entregados</div>
+          </div>
+          <div>
+            <div class="text-2xl font-bold text-neutral-900 font-display">7 días</div>
+            <div class="text-xs text-neutral-500 mt-1">Entrega promedio</div>
+          </div>
+          <div>
+            <div class="text-2xl font-bold text-neutral-900 font-display">99.4%</div>
+            <div class="text-xs text-neutral-500 mt-1">Clientes satisfechos</div>
+          </div>
+        </div>
+      </div>
+      <div class="lg:col-span-5">
+        <div class="rounded-2xl overflow-hidden border border-neutral-200 shadow-xl bg-white p-3">
+          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80" 
+               alt="Equipo de Lumina Estudio Creativo en Costa Rica" 
+               class="w-full h-80 object-cover rounded-xl" />
+          <div class="p-4">
+            <h3 class="font-bold text-neutral-900 font-display">Estudio Creativo en San José, Costa Rica</h3>
+            <p class="text-sm text-neutral-500 mt-1">Diseño, código limpio y facturación en moneda local (CRC) y USD.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUIÉNES SOMOS -->
+  <section id="quienes-somos" class="py-24 px-6 bg-white border-b border-neutral-200">
+    <div class="max-w-7xl mx-auto">
+      <div class="max-w-3xl mb-16">
+        <div class="text-xs uppercase tracking-wider font-semibold text-neutral-500 mb-2">Conoce nuestra historia</div>
+        <h2 class="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight font-display">Quiénes Somos</h2>
+        <p class="text-neutral-600 mt-4 leading-relaxed text-base sm:text-lg">
+          Somos <strong>Lumina Estudio Creativo</strong>, un equipo interdisciplinario con sede en <strong>San José, Costa Rica</strong>. Diseñamos plataformas web ágiles y sistemas de identidad visual para negocios que buscan proyectar profesionalismo y consolidar ventas a nivel local e internacional.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="p-8 rounded-2xl bg-neutral-50 border border-neutral-200">
+          <div class="w-12 h-12 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-lg mb-6">01</div>
+          <h3 class="text-xl font-bold text-neutral-900 mb-3 font-display">Enfoque en Conversión</h3>
+          <p class="text-sm text-neutral-600 leading-relaxed">
+            Estructuramos sitios web optimizados con botones de WhatsApp directo para que tus clientes costarricenses e internacionales te contacten en un instante.
+          </p>
+        </div>
+
+        <div class="p-8 rounded-2xl bg-neutral-50 border border-neutral-200">
+          <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-lg mb-6">02</div>
+          <h3 class="text-xl font-bold text-neutral-900 mb-3 font-display">Precios Regionales Claros</h3>
+          <p class="text-sm text-neutral-600 leading-relaxed">
+            Tarifas fijas y transparentes en Colones Costarricenses (₡ CRC) y Dólares (USD), sin cobros sorpresa y con entregables especificados.
+          </p>
+        </div>
+
+        <div class="p-8 rounded-2xl bg-neutral-50 border border-neutral-200">
+          <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center font-bold text-lg mb-6">03</div>
+          <h3 class="text-xl font-bold text-neutral-900 mb-3 font-display">Atención Cercana</h3>
+          <p class="text-sm text-neutral-600 leading-relaxed">
+            Comunicación continua vía WhatsApp (+506) y videollamadas con el equipo que desarrolla tu solución. Soporte técnico garantizado.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATÁLOGO DE 3 PRODUCTOS / SERVICIOS CON PRECIO -->
+  <section id="catalogo" class="py-24 px-6 bg-neutral-50 border-b border-neutral-200">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <div class="text-xs uppercase tracking-wider font-semibold text-neutral-500 mb-2">Precios Regionales Costa Rica</div>
+        <h2 class="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight font-display">Catálogo de 3 Servicios con Precios</h2>
+        <p class="text-neutral-600 mt-3">Tarifas en Colones Costarricenses (₡ CRC) y Dólares (USD), con botón directo a WhatsApp.</p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <!-- Servicio 1 -->
+        <div class="bg-white rounded-2xl border-2 border-blue-600 shadow-md flex flex-col overflow-hidden">
+          <div class="bg-blue-600 text-white text-xs font-bold uppercase tracking-wider text-center py-2">Más Solicitado en CR</div>
+          <div class="p-8 flex-1 flex flex-col">
+            <div class="text-xs font-semibold text-blue-600 uppercase">01 · Desarrollo Web</div>
+            <h3 class="text-2xl font-bold text-neutral-900 mt-2 font-display">Diseño Web & Landing Page Pro</h3>
+            <p class="text-sm text-neutral-600 mt-2">Sitio web responsivo y rápido para negocios de Costa Rica, adaptado a móviles y conectado a WhatsApp.</p>
+            
+            <div class="mt-6 pt-6 border-t border-neutral-100">
+              <div class="flex items-baseline gap-2">
+                <span class="text-3xl sm:text-4xl font-extrabold text-neutral-900 font-display">₡180,000 CRC</span>
+                <span class="text-xs text-neutral-500">pago único</span>
+              </div>
+              <div class="text-xs text-blue-600 font-semibold mt-1">Equivalente a: $350 USD</div>
+              <div class="text-xs text-neutral-500 mt-0.5">Tiempo de entrega: 7 a 10 días hábiles</div>
+            </div>
+
+            <ul class="mt-6 space-y-3 text-sm text-neutral-700 flex-1">
+              <li class="flex items-start gap-2">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <span>Diseño UI/UX 100% personalizado</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <span>Adaptabilidad móvil, tablet y PC</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <span>Botones directos de WhatsApp (+506)</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <span>Optimización SEO y velocidad de carga</span>
+              </li>
+            </ul>
+
+            <div class="mt-8 pt-6 border-t border-neutral-100">
+              <a href="https://wa.me/50687123456?text=Hola%20Lumina%20Costa%20Rica%2C%20quiero%20contratar%20el%20servicio%20de%3A%20Dise%C3%B1o%20Web%20%26%20Landing%20Page%20Pro%20(%E2%82%A1180%2C000%20CRC%20%2F%20%24350%20USD)."
+                 target="_blank" rel="noopener noreferrer"
+                 class="w-full py-3 px-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm flex items-center justify-center gap-2 transition-colors shadow-sm">
+                <span>Solicitar por WhatsApp (+506)</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Servicio 2 -->
+        <div class="bg-white rounded-2xl border border-neutral-200 shadow-sm flex flex-col overflow-hidden">
+          <div class="p-8 flex-1 flex flex-col">
+            <div class="text-xs font-semibold text-neutral-500 uppercase">02 · Branding</div>
+            <h3 class="text-2xl font-bold text-neutral-900 mt-2 font-display">Identidad Visual & Branding</h3>
+            <p class="text-sm text-neutral-600 mt-2">Logotipo memorable y manual de marca corporativo completo para posicionar tu empresa en Costa Rica.</p>
+            
+            <div class="mt-6 pt-6 border-t border-neutral-100">
+              <div class="flex items-baseline gap-2">
+                <span class="text-3xl sm:text-4xl font-extrabold text-neutral-900 font-display">₡115,000 CRC</span>
+                <span class="text-xs text-neutral-500">pago único</span>
+              </div>
+              <div class="text-xs text-neutral-600 font-semibold mt-1">Equivalente a: $220 USD</div>
+              <div class="text-xs text-neutral-500 mt-0.5">Tiempo de entrega: 5 a 7 días hábiles</div>
+            </div>
+
+            <ul class="mt-6 space-y-3 text-sm text-neutral-700 flex-1">
+              <li class="flex items-start gap-2">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <span>3 propuestas conceptuales de logo</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <span>Archivos vectoriales (AI, SVG, PDF, PNG)</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <span>Paleta cromática y guía tipográfica</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <span>Plantillas de avatar y banners para redes</span>
+              </li>
+            </ul>
+
+            <div class="mt-8 pt-6 border-t border-neutral-100">
+              <a href="https://wa.me/50687123456?text=Hola%20Lumina%20Costa%20Rica%2C%20quiero%20contratar%20el%20paquete%20de%3A%20Identidad%20Visual%20%26%20Branding%20(%E2%82%A1115%2C000%20CRC%20%2F%20%24220%20USD)."
+                 target="_blank" rel="noopener noreferrer"
+                 class="w-full py-3 px-4 rounded-xl bg-neutral-900 hover:bg-neutral-800 text-white font-semibold text-sm flex items-center justify-center gap-2 transition-colors">
+                <span>Solicitar por WhatsApp (+506)</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Servicio 3 -->
+        <div class="bg-white rounded-2xl border border-neutral-200 shadow-sm flex flex-col overflow-hidden">
+          <div class="p-8 flex-1 flex flex-col">
+            <div class="text-xs font-semibold text-neutral-500 uppercase">03 · Marketing Digital</div>
+            <h3 class="text-2xl font-bold text-neutral-900 mt-2 font-display">Gestión de Redes & Anuncios Ads</h3>
+            <p class="text-sm text-neutral-600 mt-2">Estrategia de contenidos y pauta publicitaria en Meta Ads / Google Ads segmentada para Costa Rica.</p>
+            
+            <div class="mt-6 pt-6 border-t border-neutral-100">
+              <div class="flex items-baseline gap-2">
+                <span class="text-3xl sm:text-4xl font-extrabold text-neutral-900 font-display">₡95,000 CRC</span>
+                <span class="text-xs text-neutral-500">mensual</span>
+              </div>
+              <div class="text-xs text-neutral-600 font-semibold mt-1">Equivalente a: $185 USD/mes</div>
+              <div class="text-xs text-neutral-500 mt-0.5">Activación en 72 horas hábiles</div>
+            </div>
+
+            <ul class="mt-6 space-y-3 text-sm text-neutral-700 flex-1">
+              <li class="flex items-start gap-2">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <span>12 piezas gráficas profesionales al mes</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <span>Redacción de copies persuasivos</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <span>Campañas de anuncios Meta / Google Ads</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-emerald-600 font-bold">✓</span>
+                <span>Reporte mensual de rendimiento y retorno</span>
+              </li>
+            </ul>
+
+            <div class="mt-8 pt-6 border-t border-neutral-100">
+              <a href="https://wa.me/50687123456?text=Hola%20Lumina%20Costa%20Rica%2C%20quiero%20contratar%20el%20plan%20de%3A%20Gesti%C3%B3n%20de%20Redes%20%26%20Anuncios%20(%E2%82%A195%2C000%20CRC%20%2F%20%24185%20USD%20mensual)."
+                 target="_blank" rel="noopener noreferrer"
+                 class="w-full py-3 px-4 rounded-xl bg-neutral-900 hover:bg-neutral-800 text-white font-semibold text-sm flex items-center justify-center gap-2 transition-colors">
+                <span>Solicitar por WhatsApp (+506)</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DATOS DE CONTACTO -->
+  <section id="contacto" class="py-24 px-6 bg-white border-b border-neutral-200">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+      <div class="lg:col-span-5 space-y-6">
+        <div>
+          <div class="text-xs uppercase tracking-wider font-semibold text-neutral-500 mb-2">Comunícate en Costa Rica</div>
+          <h2 class="text-3xl sm:text-4xl font-bold text-neutral-900 tracking-tight font-display">Datos de Contacto</h2>
+          <p class="text-neutral-600 mt-3 leading-relaxed text-sm">
+            Atención personalizada para todo Costa Rica y proyectos internacionales.
+          </p>
+        </div>
+
+        <!-- WhatsApp highlight card -->
+        <div class="p-6 rounded-2xl bg-emerald-50 border border-emerald-200 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center">
+              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+            </div>
+            <div>
+              <h3 class="font-bold text-emerald-950 font-display">Canal Oficial de WhatsApp (Costa Rica)</h3>
+              <p class="text-xs text-emerald-800">Respuesta rápida con un asesor</p>
+            </div>
+          </div>
+          <p class="text-xs text-emerald-900">
+            Haz clic para abrir un chat directo con nuestro equipo por WhatsApp:
+          </p>
+          <a href="https://wa.me/50687123456?text=Hola%20Lumina%20Estudio%20Costa%20Rica%2C%20quiero%20cotizar%20un%20proyecto" 
+             target="_blank" rel="noopener noreferrer"
+             class="w-full py-3.5 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-sm flex items-center justify-center gap-2 transition-colors shadow-sm">
+            <span>Chatear al WhatsApp: +506 8712 3456</span>
+          </a>
+        </div>
+
+        <div class="space-y-3">
+          <div class="p-4 rounded-xl bg-neutral-50 border border-neutral-200">
+            <div class="text-[11px] font-semibold text-neutral-500 uppercase">Correo Electrónico</div>
+            <a href="mailto:contacto@luminaestudio.cr" class="text-sm font-bold text-neutral-900 hover:text-blue-600 transition-colors block mt-0.5">
+              contacto@luminaestudio.cr
+            </a>
+          </div>
+          <div class="p-4 rounded-xl bg-neutral-50 border border-neutral-200">
+            <div class="text-[11px] font-semibold text-neutral-500 uppercase">Ubicación</div>
+            <div class="text-sm font-semibold text-neutral-900 mt-0.5">Barrio Escalante, San José, Costa Rica</div>
+          </div>
+          <div class="p-4 rounded-xl bg-neutral-50 border border-neutral-200">
+            <div class="text-[11px] font-semibold text-neutral-500 uppercase">Horario de Atención</div>
+            <div class="text-sm font-semibold text-neutral-900 mt-0.5">Lunes a Viernes: 8:30 AM – 6:00 PM (Hora CR)</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="lg:col-span-7">
+        <div class="bg-neutral-50 p-8 rounded-2xl border border-neutral-200">
+          <h3 class="text-xl font-bold text-neutral-900 font-display mb-2">Envíanos un mensaje directo</h3>
+          <p class="text-xs text-neutral-500 mb-6">Cotiza en Colones (CRC) o Dólares (USD).</p>
+
+          <form onsubmit="event.preventDefault(); alert('¡Gracias! Mensaje recibido. Te contactaremos vía WhatsApp (+506).');" class="space-y-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-semibold text-neutral-700 mb-1">Nombre Completo *</label>
+                <input type="text" required placeholder="Tu nombre" class="w-full px-3.5 py-2.5 rounded-xl border border-neutral-300 bg-white text-sm focus:outline-none focus:ring-1 focus:ring-neutral-900" />
+              </div>
+              <div>
+                <label class="block text-xs font-semibold text-neutral-700 mb-1">Correo Electrónico *</label>
+                <input type="email" required placeholder="correo@ejemplo.cr" class="w-full px-3.5 py-2.5 rounded-xl border border-neutral-300 bg-white text-sm focus:outline-none focus:ring-1 focus:ring-neutral-900" />
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-semibold text-neutral-700 mb-1">Teléfono / WhatsApp (+506) *</label>
+                <input type="tel" required placeholder="+506 8712 3456" class="w-full px-3.5 py-2.5 rounded-xl border border-neutral-300 bg-white text-sm focus:outline-none focus:ring-1 focus:ring-neutral-900" />
+              </div>
+              <div>
+                <label class="block text-xs font-semibold text-neutral-700 mb-1">Servicio de Interés</label>
+                <select class="w-full px-3.5 py-2.5 rounded-xl border border-neutral-300 bg-white text-sm focus:outline-none focus:ring-1 focus:ring-neutral-900">
+                  <option>Diseño Web & Landing Page Pro (₡180,000 CRC / $350 USD)</option>
+                  <option>Identidad Visual & Branding (₡115,000 CRC / $220 USD)</option>
+                  <option>Gestión de Redes & Anuncios Ads (₡95,000 CRC / $185 USD)</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-neutral-700 mb-1">Descripción de tu proyecto o metas *</label>
+              <textarea rows="4" required placeholder="Describe brevemente lo que necesitas para tu marca en Costa Rica..." class="w-full px-3.5 py-2.5 rounded-xl border border-neutral-300 bg-white text-sm focus:outline-none focus:ring-1 focus:ring-neutral-900"></textarea>
+            </div>
+
+            <button type="submit" class="w-full py-3.5 px-6 rounded-xl bg-neutral-900 hover:bg-neutral-800 text-white font-semibold text-sm transition-colors">
+              Enviar Consulta
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-12 px-6 bg-neutral-900 text-neutral-400">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 border-b border-neutral-800 pb-8">
+      <div class="flex items-center gap-2.5">
+        <span class="w-8 h-8 rounded-lg bg-white text-neutral-900 font-bold flex items-center justify-center text-sm">L</span>
+        <span class="text-white font-bold tracking-tight text-lg font-display">Lumina Estudio Creativo · Costa Rica</span>
+      </div>
+      <div class="flex flex-wrap items-center gap-6 text-xs sm:text-sm">
+        <a href="#inicio" class="hover:text-white transition-colors">Inicio</a>
+        <a href="#quienes-somos" class="hover:text-white transition-colors">Quiénes Somos</a>
+        <a href="#catalogo" class="hover:text-white transition-colors">Catálogo</a>
+        <a href="#contacto" class="hover:text-white transition-colors">Contacto</a>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto pt-6 flex flex-col sm:flex-row items-center justify-between text-xs gap-4 text-neutral-500">
+      <div>© 2026 Lumina Estudio Creativo. San José, Costa Rica.</div>
+      <div class="flex items-center gap-4">
+        <span>Diseñado con Asistencia de IA</span>
+        <span>·</span>
+        <a href="https://wa.me/50687123456" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:underline">WhatsApp: +506 8712 3456</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP BUTTON -->
+  <a href="https://wa.me/50687123456?text=Hola%20Lumina%20Estudio%20Costa%20Rica%2C%20estoy%20viendo%20su%20sitio%20web" 
+     target="_blank" rel="noopener noreferrer" aria-label="Abrir WhatsApp Costa Rica"
+     class="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white flex items-center justify-center shadow-2xl transition-transform hover:scale-105">
+    <svg class="w-7 h-7 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+  </a>
+
+</body>
+</html>
